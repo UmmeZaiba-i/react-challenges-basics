@@ -3,7 +3,9 @@ import ToggleText from './components/useState/ToggleText';
 
 function App() {
   return (
-    <ToggleText/>
+    <div className="App">
+      <ToggleText/>
+    </div>
   );
 }
 
