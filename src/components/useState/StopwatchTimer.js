@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 
 export default function StopwatchTimer() {
+    // A state to manage the display of the time
     const [time, setTime] = useState(0);
+    // a State to know if the timer is running
     const [isRunning, setIsRunning] = useState(false);
+    
     const [intervalId, setIntervalId] = useState(null);
 
     const handleStart = () => {
